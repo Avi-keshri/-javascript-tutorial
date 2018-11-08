@@ -11,7 +11,7 @@
 <!-- javascript can change HTML attributes-->
 
 <button type='button' onclick="document.getElementById('lightOffOn').src='images.jfif'">Turn on Light</button>
-<img id='lightOffOn'src="images.jfif">
+<img id='lightOffOn'src="images/images.jfif">
 <button type="button" onclick="document.getElementById('lightOffOn').src='download.jfif'">Turn off Light</button>
 <hr>
 
@@ -34,7 +34,7 @@
 <script>
 	window.onload=function(){
 		var element=document.createElement('script');
-	     element.src='myscript.js';
+	     element.src='js/myscript.js';
 	    document.body.append(element);
 	}
 </script>
