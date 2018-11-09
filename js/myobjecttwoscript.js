@@ -55,7 +55,8 @@ var person = {
 document.getElementById('demo4').innerHTML=person.fullName;
 
 //JavaScript Object Constructors
-
+//Sometimes we need a "blueprint" for creating many objects of the same "type".
+//The way to create an "object type", is to use an object constructor function.
 //constructor function for person objects
 function Person(first,last,age,eye){
 	this.firstName = first;
