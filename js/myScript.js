@@ -1,4 +1,3 @@
-
 //1).function declaration
 
 function functionName(parameters){
